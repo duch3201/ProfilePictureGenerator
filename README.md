@@ -6,8 +6,6 @@ This code generates SVG profile pictures with random background and avatar color
 
 The SVG Profile Picture Generator is a Python code snippet that allows you to generate SVG profile pictures with random background and avatar colors. It uses the generate_profile_picture() function, which creates an SVG code with random colors and saves it to a file with a random name and the .svg extension.
 
-To use the code, you need to import the required modules and call the generate_profile_picture() function. The function generates the SVG profile picture, saves it to a file, and returns the filepath of the saved SVG file.
-
 The generated profile pictures can be used in web applications, user profiles, or any other scenario where random profile pictures are needed. The code is easily customizable, allowing you to adjust the color generation logic or incorporate it into your existing Flask, HTML, or JavaScript-based projects.
 
 
