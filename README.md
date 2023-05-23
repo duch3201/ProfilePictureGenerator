@@ -13,7 +13,8 @@ The generated profile pictures can be used in web applications, user profiles, o
 Generate a random profile picture using the generate_profile_picture() function:
 
 ```py
-    profile_picture_filepath = generate_profile_picture(svgOutputPath)
+    import pfpGen
+    profile_picture_filepath = pfpGen.generate_profile_picture(svgOutputPath)
 ```
 The function takes svgOutputPath generates an SVG profile picture, saves it to a file in the specified directory, and returns the filepath of the saved SVG file.
 
