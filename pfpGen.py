@@ -38,7 +38,3 @@ def generate_profile_picture(svgOutputPath):
         file.write(svg_code)
 
     return filepath
-
-
-profile_picture_filepath = generate_profile_picture()
-print(f"Profile picture saved to: {profile_picture_filepath}")
