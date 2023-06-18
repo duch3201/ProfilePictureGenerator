@@ -18,13 +18,6 @@ Generate a random profile picture using the generate_profile_picture() function:
 ```
 The function takes svgOutputPath generates an SVG profile picture, saves it to a file in the specified directory, and returns the filepath of the saved SVG file.
 
-Functions
-generate_profile_picture()
-
-Generates an SVG profile picture with random background and avatar colors, saves it to a file, and returns the filepath.
-
-Returns: Filepath (string) - The filepath of the saved SVG file.
-
 ## Info:
 
     Version: 1.0.0
